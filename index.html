@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Hitung Segitiga</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="atas">
+        <h3 id = "judul"> Katik </h3>
+        <nav class="information">
+            <label>Hai sobat, Selamat datang di katik :]</label>
+            <br>
+            <label>Sebuah web apps sederhana yang berfungsi untuk menghitung luas dan keliling bangun datar.</label>
+        </nav>
+        <br><br>
+        <nav class="navigation">
+            <button id="luassegitiga" onclick="myFunction()">Luas Segitiga</button>
+            
+        </nav>
+        <br>
+        <nav class="navigation">
+            
+        <button id="kelilingsegitiga" onclick="myFunctionk()">Keliling Segitiga</button>
+            
+        </nav>
+    </div>
+    
+        <div id ="luas">
+            <div class = "card">
+                <div class = "container">
+                    <h4><b> Luas Segitiga</b> </h4>
+                    <img src="segitiga.png" alt="Avatar" style="width:100%">
+                    <p> rumus luas segitiga yaitu : </p>
+                    <h6> L = 1/2 x a x t</h6>
+                    <p> Dimana :  </p>
+                    <p> L = Luas  </p>
+                    <p> a = Panjang Alas  </p>
+                    <p> t : Tinggi </p>
+                    <hr>
+                </div>
+
+                <div class = "container2">
+                    <h4><b> Hitung Luas Segitiga</b> </h4>
+                    <input type="number" id="alas" name="alas">
+                    <input type="number" id="tinggi" name="tinggi">
+                    <input type="submit" name="button" id="button" onclick="hitungluas()" />
+                    <br>
+                    <div class = "jawaban" id ="jawaban">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class = "keliling" id="keliling">
+            <div class = "card">
+                <div class = "container">
+                    <h4><b> Keliling Segitiga</b> </h4>
+                    <img src="segitiga.png" alt="Avatar" style="width:100%">
+                    <p> rumus keliling segitiga yaitu : </p>
+                    <h6> K = 1/2 x a x t</h6>
+                    <p> Dimana :  </p>
+                    <p> K = Keliling  </p>
+                    <p> S1 = Sisi A  </p>
+                    <p> S2 = Sisi B </p>
+                    <p> S3 = Sisi C  </p>
+                    <hr>
+                </div>
+
+                <div class = "container2">
+                    <h4><b> Hitung Keliling Segitiga</b> </h4>
+                    <input type="number" id="s1" name="sisi1"> 
+                    <input type="number" id="s2" name="sisi2">
+                    <input type="number" id="s3" name="sisi3">
+                    <input type="submit" name="button" id="button" onclick="hitungkeliling()" />
+                    <br>
+                    <div class = "jawaban" id="jawaban2">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

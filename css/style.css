@@ -1,0 +1,70 @@
+.keliling{
+    display: none;
+}
+.luas{
+    display: block;
+}
+.atas{
+    text-align: center;
+    margin: 5px;
+}
+h3 {
+    border-top: 2px solid #1375b0;
+    width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  font-size: 45px;
+  }
+.navigation{
+    width: 100%;
+  text-align: center;
+  background-color: lightblue;
+
+}
+#luassegitiga{
+    width: 100%;
+    height: 75px;
+    background-color: lightblue;
+}
+#kelilingsegitiga{
+    width: 100%;
+    height: 75px;
+    background-color: lightblue;
+}
+
+h4 {
+    border-top: 2px solid #1375b0;
+    width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  font-size: 45px;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 90px;
+    height: 350px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
